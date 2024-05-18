@@ -8,7 +8,6 @@ public class ContactTest {
 	@Test
 	public void createContactTest() {
 		System.out.println("execute createContactTest");
-		
 		String BROWSER = System.getProperty("browser","chrome"); //Here "chrome" is mentioned,bcz if you forgot to pass the command through CMD line also ,it will take "chrome" as a browser.Similarly,we can pass other credentials also(like,URL,UN,PW)inside this program only by putting comma after the credentials. 
 		String URL = System.getProperty("url");
 		String UN = System.getProperty("username");
